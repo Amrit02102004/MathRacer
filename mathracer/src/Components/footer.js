@@ -1,11 +1,13 @@
 // Footer.js
 
 import React from 'react';
+import '../css/footer.css'; // Import CSS file for footer styles
 
 const Footer = () => {
   return (
-    <footer>
-      <p>&copy; {new Date().getFullYear()} Your Website Name</p>
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Math Racer</p>
+      <p>Made with <span role="img" aria-label="heart">💖</span> by Amrit Sundarka</p>
     </footer>
   );
 }
